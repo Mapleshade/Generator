@@ -1,0 +1,84 @@
+{
+    "levels": [
+        {
+            "Mechanics": {
+                "AvoidingUnkillableObjects": false,
+                "InstantDeath": false,
+                "GameRepeatsUntilYouDie": false,
+                "RememberAnIncreasingNumberOfThings": false,
+                "RepeatPattern": false,
+                "ForcedConstantMovement": false,
+                "BlockPuzzles": false,
+                "GameKeepsGetsHarderUntilYouDie": false,
+                "UncountableNumberOfPossiblePaths": false,
+                "BlockPath": false,
+                "InformationOverload": false,
+                "SwitchModes": false,
+                "PushMoleDownMolePopsUp": false,
+                "BouncingObject": false,
+                "Gravity": false,
+                "SpinningPlates": false,
+                "Teleports": false,
+                "Squad": false,
+                "ScarceResource": false,
+                "Jumping": false,
+                "Timed": false,
+                "ProtectTarget": false,
+                "UndirectedExploration": false,
+                "BulletHell": false,
+                "BuyLowSellHigh": false,
+                "Trading": false,
+                "Shooting": false,
+                "DialogueTree": false,
+                "Building": false,
+                "Race": false
+            },
+            "Views": {
+                "CanSwitchView": false,
+                "TypeOfView": [
+                    1
+                ]
+            }
+        },
+        {
+            "Mechanics": {
+                "AvoidingUnkillableObjects": false,
+                "InstantDeath": false,
+                "GameRepeatsUntilYouDie": false,
+                "RememberAnIncreasingNumberOfThings": false,
+                "RepeatPattern": false,
+                "ForcedConstantMovement": false,
+                "BlockPuzzles": false,
+                "GameKeepsGetsHarderUntilYouDie": false,
+                "UncountableNumberOfPossiblePaths": false,
+                "BlockPath": false,
+                "InformationOverload": false,
+                "SwitchModes": false,
+                "PushMoleDownMolePopsUp": false,
+                "BouncingObject": false,
+                "Gravity": false,
+                "SpinningPlates": false,
+                "Teleports": false,
+                "Squad": false,
+                "ScarceResource": false,
+                "Jumping": false,
+                "Timed": false,
+                "ProtectTarget": false,
+                "UndirectedExploration": false,
+                "BulletHell": false,
+                "BuyLowSellHigh": false,
+                "Trading": false,
+                "Shooting": false,
+                "DialogueTree": false,
+                "Building": false,
+                "Race": false
+            },
+            "Views": {
+                "CanSwitchView": false,
+                "TypeOfView": [
+                    1
+                ]
+            }
+        }
+    ]
+}
