@@ -1,4 +1,5 @@
-﻿using Configurations;
+﻿using System.Collections.Generic;
+using Configurations;
 using UnityEngine;
 using System.IO;
 
@@ -22,6 +23,10 @@ public class ApplicationEntryPoint : MonoBehaviour
             Mechanics = new GameMechanicsOnLevel(), Views = new CameraOnLevel {TypeOfView = new int[1]}
         };
         settings.levels[1].Views.TypeOfView[0] = 1;
+        settings.levels[0].Characters = new List<Character>();
+        settings.levels[0].Characters.Add(new Character());
+        settings.levels[0].Characters.Add(new Character());
+        
         
 
         var json = JsonUtility.ToJson(settings, true);

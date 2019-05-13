@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Configurations
 {
@@ -10,5 +11,6 @@ namespace Configurations
     {
         public GameMechanicsOnLevel Mechanics;
         public CameraOnLevel Views;
+        public List<Character> Characters = new List<Character>();
     }
 }
