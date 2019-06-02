@@ -23,7 +23,7 @@ namespace StandartGameMechanics.Player
         ///     дополнительные жизни игрока (опционально)
         /// </summary>
         [Inject] 
-        private PlayerExtraLivesPart extraLives;
+        public PlayerExtraLivesPart extraLives;
 
         /// <summary>
         ///     получить урон
