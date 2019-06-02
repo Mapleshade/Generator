@@ -60,6 +60,8 @@ public class LevelGenerator : MonoBehaviour
                 RotateRoom(room.transform, index0, index1);
             }
         }
+        
+        GetComponent<GenerateEnvironment>().Generate();
     }
 
     private GameObject FindPrefab(int index0, int index1)
