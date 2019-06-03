@@ -19,7 +19,7 @@ public class GenerateEnvironment : MonoBehaviour
         {
             if (Random.Range(0, 2) == 1)
             {
-                var dangerObject = Instantiate(danger);
+                var dangerObject = Instantiate(danger, dangerSocket.transform, true);
                 dangerObject.transform.position = dangerSocket.transform.position;
             }
         }
@@ -28,7 +28,7 @@ public class GenerateEnvironment : MonoBehaviour
         {
             if (Random.Range(0, 2) == 1)
             {
-                var platformObject = Instantiate(platform);
+                var platformObject = Instantiate(platform, platformSocket.transform, true);
                 platformObject.transform.position = platformSocket.transform.position;
             }
         }
